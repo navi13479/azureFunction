@@ -14,7 +14,7 @@ module.exports = async function (context, IoTHubMessages) {
         const deviceId = message.deviceId;
         const temperature = message.temperature;
         const humidity = message.humidity;
-
+//zmena
         const point = new Point('census')
             .tag('deviceId', deviceId)
             .floatField('temperature', temperature)

@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@azure/event-hubs": "^5.11.5-alpha.20240507.2",
+    "@influxdata/influxdb-client": "^1.33.2",
+    "@influxdata/influxdb3-client": "^0.8.0",
+    "azure-iothub": "^1.16.5"
+  }
+}

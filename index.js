@@ -25,6 +25,6 @@ module.exports = async function (context, message) {
     const writeApi = influxDBClient.getWriteApi(influxDBOrg, influxDBBucket);
     writeApi.writePoint(point);
     await writeApi.close();
-
+//just a change
     context.done();
 };
